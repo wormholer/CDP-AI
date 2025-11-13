@@ -26,3 +26,12 @@ cdp-ai-demo/
 ├── requirements.txt
 ├── README.md
 └── run_demo.py                    # 主启动文件
+
+安装依赖
+pip install -r requirements.txt
+
+运行demo
+python run_demo.py
+
+查看结果
+在浏览器中打开 http://localhost:8050 查看可视化仪表板
