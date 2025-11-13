@@ -1,0 +1,28 @@
+cdp-ai-demo/
+│
+├── data/                          # 模拟用户数据
+│   ├── sample_users.json
+│   └── generate_data.py
+│
+├── models/                        # AI模型相关
+│   ├── train_model.py
+│   ├── prediction_service.py
+│   └── user_clustering.py
+│
+├── cdp_core/                      # CDP核心功能
+│   ├── __init__.py
+│   ├── user_profile.py
+│   ├── event_tracker.py
+│   └── segment_manager.py
+│
+├── dashboard/                     # 可视化仪表板
+│   ├── app.py
+│   └── templates/
+│       └── index.html
+│
+├── config/                        # 配置文件
+│   └── settings.py
+│
+├── requirements.txt
+├── README.md
+└── run_demo.py                    # 主启动文件
